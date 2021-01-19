@@ -54,8 +54,9 @@ e + + + + + + + + + + + + + + + +
 f + + + + + + + + + + + + + + + +
 ```
 
+答案：[五指棋](./code/GobangChessboard.java)
 
-
+![](./GoBang-preview.png)
 
 
 
