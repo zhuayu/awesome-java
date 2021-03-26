@@ -7,6 +7,7 @@ public class Poker{
   public Poker() {
     pockCards = new LinkedList<>();
     reset();
+    shuffle();
   }
 
   public void reset() {
@@ -31,7 +32,7 @@ public class Poker{
     return pockCards.poll();
   }
 
-  public LinkedList<Card> getPokers() {
+  public LinkedList<Card> getCards() {
     return pockCards;
   }
 }

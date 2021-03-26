@@ -30,7 +30,7 @@
 789 出现了 1 次 
 ```
 
-答案：[二维数组打印](./code/NumberCount.java)
+答案：[数字字符串出现的次数](./code/NumberCount.java)
 
 ![](./NumberCount-preview.png)
 
@@ -47,5 +47,9 @@
 （4）其中玩家手中的扑克牌需要按照大小顺序打印，规则如下： 
 
 手中扑克牌从大到小的摆放顺序：大王,小王,2,A,K,Q,J,10,9,8,7,6,5,4,3
+
+答案：[扑克牌](./code/PokerGame/PokerGame.java)
+
+![](./poker-preview.png)
 
 
