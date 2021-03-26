@@ -10,8 +10,8 @@ public class Card {
     }
 
     public Card(CardColor cardColor, CardRank cardRank){
-        name = cardColor.getColor() + cardColor.getRankName();
-        rank = cardRank.getRank() + (cardRank.getRank() -1) * 4;
+        name = cardColor.getColor() + cardRank.getRankName();
+        rank = cardColor.getRank() + (cardRank.getRank() -1) * 4;
     }
 
     public static Card getBlackJoker() {

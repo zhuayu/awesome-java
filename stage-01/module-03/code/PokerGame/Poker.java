@@ -1,9 +1,10 @@
 import java.util.LinkedList;
+import java.util.Collections;
 
-public class Pocker{
+public class Poker{
   private LinkedList<Card> pockCards;
 
-  public Pocker() {
+  public Poker() {
     pockCards = new LinkedList<>();
     reset();
   }
@@ -30,7 +31,7 @@ public class Pocker{
     return pockCards.poll();
   }
 
-  public LinkedList<Card> getPockers() {
+  public LinkedList<Card> getPokers() {
     return pockCards;
   }
 }
